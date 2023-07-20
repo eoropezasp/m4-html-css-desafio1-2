@@ -1,0 +1,81 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+@font-face {
+    font-family: 'Cooveltica';
+    src: url("../Recursos/Ejercicio 1/Recursos/coolvetica rg.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
+font-family: 'Roboto', sans-serif; 
+*/
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+}
+
+main{
+
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.caja{  
+    width: 25%;
+    padding: 1em;
+    background-color: #eff2ff;
+
+}
+
+.caja div img{
+    width: 30%;
+}
+
+.title{
+    font-family: 'Cooveltica';
+    font-size: 120px;
+    color: var(--color2);
+}
+
+.sub-title{
+    margin: 3rem 0 5rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: var(--color1);
+}
+
+.caja p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.p1{
+    margin: 0.8rem 0 2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color1);
+}
+
+
+.p2,p3{
+    font-weight: 900;   
+    color: var(--color1);
+}
+
+.p3{
+    margin-top: 1rem;
+    font-weight: 400;
+}
