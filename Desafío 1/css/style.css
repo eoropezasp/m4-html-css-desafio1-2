@@ -1,9 +1,8 @@
-
 @font-face {
     font-family: 'Cooveltica';
     src: url("../Recursos/Ejercicio 1/Recursos/coolvetica rg.otf");
-font-weight: normal;
-font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -18,4 +17,70 @@ font-style: normal;
     src: url("../Recursos/Ejercicio 1/Recursos/Roboto-Regular.ttf");
     font-weight: normal;
 }
-    
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.pr1 {
+    font-family: 'Cooveltica';
+    font-weight: normal;
+    font-size: 7.5rem;
+    color: var(--color2);
+}
+
+.pr2 {
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: var(--color1);
+    margin-top: 1.875rem;
+}
+
+.box-btn {
+    margin-top: 2.5rem;
+}
+
+.box-btn a {
+    display: block;
+
+}
+
+.bt1,
+.bt2 {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 2.5rem;
+    width: 32.5rem;
+    height: 5rem;
+    border: .1875rem solid var(--color1);
+    margin-top: 2.5rem;
+}
+
+.bt1 {
+    color: white;
+    background-color: var(--color2);
+}
+
+.bt2 {
+    color: var(--color4);
+}
