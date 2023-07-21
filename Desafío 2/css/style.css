@@ -1,0 +1,80 @@
+@import url("../../Desafío 1/css/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+@font-face {
+    font-family: 'Cooveltica';
+    src: url("../Recursos/Ejercicio 1/Recursos/coolvetica-rg.otf");
+}
+
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+}
+
+main {
+    width: 100%;
+    padding: 1em;
+}
+
+section {
+    width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.caja {
+    width: 20%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #eff2ff;
+}
+
+.caja div img {
+    width: 25%;
+
+}
+
+.caja div .apple-box {
+    width: 18%;
+}
+
+
+.caja div {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Cooveltica';
+    font-size: 7.5rem;
+    font-style: normal;
+    color: var(--color2);
+    margin-bottom: 6.25rem;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2.3331rem;
+    color: var(--color2);
+    margin: 1.875rem 0 3.125rem 0;
+}
+
+.caja p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color1);
+}
