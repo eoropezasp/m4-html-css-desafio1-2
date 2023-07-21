@@ -1,0 +1,56 @@
+@import url("../../Desafío 1/css/reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+/* 
+font-family: 'Mulish', sans-serif;
+*/
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --color1: #04146c;
+    --color2: #0a2ff1;
+    --color3: #414166;
+    --color4: #15163d;
+    --color-fondo1: #eff2ff;
+    --color-fondo2: #8a9af1;
+    --color-linea: #3ffff3;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.parrafo {
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--color2);
+    margin: 5rem 0 5rem 0;
+}
+
+main p {
+    font-size: 1.6625rem;
+    font-weight: 400;
+    color: var(--color1);
+    margin-bottom: 2.5rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+.btn {
+    width: 25rem;
+    height: 4.375rem;
+    font-size: 1.8313rem;
+    font-weight: 700;
+    color: white;
+    background-color: var(--color2);
+
+}
